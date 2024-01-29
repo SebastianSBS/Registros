@@ -1,0 +1,63 @@
+@page "/ConsultaClientes"
+
+@inject ClientesBLL ClientesBLL
+
+<label>ID</label>
+<div class="input-group">
+    <InputNumber @bind-Value="filtrar" class="form-control"></InputNumber>
+    <button type="button" class="btn btn-outline-primary oi oi-magnifying-glass" @onclick="Buscar"></button>
+    <button type="button" class="btn btn-outline-primary oi oi-reload" @onclick="Reiniciar"></button>
+</div>
+
+<table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>clientesID</th>
+                <th>Nombres</th>
+                <th>Telefono</th>
+                <th>Celular</th>
+                <th>RNC</th>
+                <th>Email</th>
+                <th>Direccion</th> <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in L_Clientes)
+            {
+                <tr>
+                    <td>@item.ClienteId</td>
+                    <td>@item.Nombres</td>
+                    <td>@item.Telefono</td>
+                    <td>@item.Celular</td>
+                    <td>@item.RNC</td>
+                    <td>@item.Email</td>
+                    <td>@item.Direccion</td>
+                    <td><a href="/RegistroCliente/@item.ClienteId"><span class="bi bi-eye"></span></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+@code
+{
+    public Clientes clientes { get; set; } = new Clientes();
+    public string mensaje = string.Empty;
+
+    public int filtrar {get; set;}
+    public List<Clientes> L_Clientes { get; set; } = new List<Clientes>();
+
+        protected override void OnInitialized()
+        {
+            L_Clientes = ClientesBLL.Listar(l => true);
+        }
+
+    public void Buscar()
+    {
+        L_Clientes = ClientesBLL.Listar(l => l.ClienteId == filtrar);
+    }
+
+    public void Reiniciar()
+    {
+        L_Clientes = ClientesBLL.Listar(l => true);
+    }
+}
