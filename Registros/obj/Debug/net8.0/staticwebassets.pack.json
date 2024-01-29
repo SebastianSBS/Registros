@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Registros.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Registros.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Registros.props",
+      "PackagePath": "build\\Registros.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Registros.props",
+      "PackagePath": "buildMultiTargeting\\Registros.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Registros.props",
+      "PackagePath": "buildTransitive\\Registros.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
