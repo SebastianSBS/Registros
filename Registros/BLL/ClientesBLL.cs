@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 public class ClientesBLL
 {
     private Context _context;
@@ -53,4 +54,10 @@ public class ClientesBLL
     {
         return _context.clientes.AsNoTracking().SingleOrDefault(c => c.ClienteId == ClienteId);
     }
+
+    public List<Clientes> Listar(Expression<Func<Clientes, bool>> Criterio)
+    {
+        return _context.clientes.Where(Criterio).AsNoTracking().ToList();
+    }
+
 }
