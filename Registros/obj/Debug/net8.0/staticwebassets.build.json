@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EsDAbcsEWHFuNuhI9B8npvH1Sq39RAmvhbWc5ZNrfnk=",
+  "Hash": "a1q2RyRKXeufeLKlVUtDjhScibDK9iXrChT/u+2BrOI=",
   "Source": "Registros",
   "BasePath": "_content/Registros",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Registros\\wwwroot",
       "Source": "Registros",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Registros.styles.css",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Registros.styles.css",
       "SourceId": "Registros",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Registros",
       "RelativePath": "Registros.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Registros.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Registros.styles.css"
     },
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css",
       "SourceId": "Registros",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Registros",
       "RelativePath": "Registros.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\app.css",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\favicon.png",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sebastian\\Desktop\\Escritorio\\Tareas\\Aplicada 1\\Registros\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

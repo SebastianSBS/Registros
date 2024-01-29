@@ -19,9 +19,7 @@
                         <button @onclick="Buscar" class="btn btn-outline-primary" type="button" id="BotonBuscar"><i class ="oi oi-magnifying-glass"/></button>
                     </div>
                 </div>
-                <label>
-                    @Notificacion
-                </label>
+
                 
                 <div class="mb-3">
                     <label class="form-label" for="Descripcion">Descripción:</label>
@@ -46,7 +44,7 @@
             </div>
         </div>
     </div>
-<button type="button" class="btn btn-outline-primary" @onclick="Buscar">Buscar <i class="oi oi-file"/></button>
+
 
 </EditForm>
 
@@ -69,7 +67,6 @@
 
     public void Buscar()
     {
-        var TMP = prioridades.PrioridadId;
         var prioridadEncontrada = prioridadesBLL.Buscar(prioridades.PrioridadId);
 
         if(prioridadEncontrada != null)

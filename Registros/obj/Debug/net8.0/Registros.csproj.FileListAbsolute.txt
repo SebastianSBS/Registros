@@ -124,3 +124,4 @@ C:\Users\Sebastian\Desktop\Escritorio\Tareas\Aplicada 1\Registros\Registros\obj\
 C:\Users\Sebastian\Desktop\Escritorio\Tareas\Aplicada 1\Registros\Registros\obj\Debug\net8.0\Registros.pdb
 C:\Users\Sebastian\Desktop\Escritorio\Tareas\Aplicada 1\Registros\Registros\obj\Debug\net8.0\Registros.genruntimeconfig.cache
 C:\Users\Sebastian\Desktop\Escritorio\Tareas\Aplicada 1\Registros\Registros\obj\Debug\net8.0\ref\Registros.dll
+C:\Users\Sebastian\Desktop\Escritorio\Tareas\Aplicada 1\Registros\Registros\obj\Debug\net8.0\Registros.sourcelink.json
