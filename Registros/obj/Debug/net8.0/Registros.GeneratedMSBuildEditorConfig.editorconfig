@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb25zdWx0YXNcQ19jbGllbnRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sebastian/Desktop/Escritorio/Tareas/Aplicada 1/Registros/Registros/Components/Pages/Consultas/C_tickets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb25zdWx0YXNcQ190aWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sebastian/Desktop/Escritorio/Tareas/Aplicada 1/Registros/Registros/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Sebastian/Desktop/Escritorio/Tareas/Aplicada 1/Registros/Registros/Components/Pages/RegistrosP/R_Prioridades.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3Ryb3NQXFJfUHJpb3JpZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastian/Desktop/Escritorio/Tareas/Aplicada 1/Registros/Registros/Components/Pages/RegistrosP/R_Tickets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3Ryb3NQXFJfVGlja2V0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sebastian/Desktop/Escritorio/Tareas/Aplicada 1/Registros/Registros/Components/Routes.razor]

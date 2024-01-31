@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -41,6 +42,38 @@ namespace Registros.Migrations
                 {
                     table.PrimaryKey("PK_prioridades", x => x.PrioridadId);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "sistemas",
+                columns: table => new
+                {
+                    SistemaId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Nombre = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_sistemas", x => x.SistemaId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tickets",
+                columns: table => new
+                {
+                    TicketId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Fecha = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    ClienteId = table.Column<int>(type: "INTEGER", nullable: false),
+                    SistemaId = table.Column<int>(type: "INTEGER", nullable: false),
+                    PrioridadId = table.Column<int>(type: "INTEGER", nullable: false),
+                    SolicitadoPor = table.Column<string>(type: "TEXT", nullable: false),
+                    Asunto = table.Column<string>(type: "TEXT", nullable: false),
+                    Descripcion = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tickets", x => x.TicketId);
+                });
         }
 
         /// <inheritdoc />
@@ -51,6 +84,12 @@ namespace Registros.Migrations
 
             migrationBuilder.DropTable(
                 name: "prioridades");
+
+            migrationBuilder.DropTable(
+                name: "sistemas");
+
+            migrationBuilder.DropTable(
+                name: "tickets");
         }
     }
 }

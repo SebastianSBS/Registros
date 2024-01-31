@@ -1,0 +1,64 @@
+@page "/ConsultaTickets"
+
+@inject TicketBLL TicketBLL
+
+<label>ID</label>
+<div class="input-group">
+    <InputNumber @bind-Value="filtrar" class="form-control"></InputNumber>
+    <button type="button" class="btn btn-outline-primary oi oi-magnifying-glass" @onclick="Buscar"></button>
+    <button type="button" class="btn btn-outline-primary oi oi-reload" @onclick="Reiniciar"></button>
+</div>
+
+<table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ticket Id</th>
+                <th>Fecha</th>
+                <th>Cliente Id</th>
+                <th>Sistema Id</th>
+                <th>Prioridad Id</th>
+                <th>Solicitado por</th>
+                <th>Asunto</th>       
+                <th>Descripcion</th> <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in L_tickets)
+            {
+                <tr>
+                    <td>@item.TicketId</td>
+                    <td>@item.Fecha</td>
+                    <td>@item.ClienteId</td>
+                    <td>@item.SistemaId</td>
+                    <td>@item.PrioridadId</td>
+                    <td>@item.SolicitadoPor</td>
+                    <td>@item.Asunto</td>
+                    <td>@item.Descripcion</td>
+                    <td><a href="/RegistroTickets/@item.TicketId"><span class="bi bi-eye"></span></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+@code
+{
+    public Tickets tickets { get; set; } = new Tickets();
+
+    public int filtrar {get; set;}
+    public List<Tickets> L_tickets { get; set; } = new List<Tickets>();
+
+        protected override void OnInitialized()
+        {
+            L_tickets = TicketBLL.Listar(t => true);
+        }
+
+    public void Buscar()
+    {
+        L_tickets = TicketBLL.Listar(t => t.TicketId == filtrar);
+    }
+
+    public void Reiniciar()
+    {
+        L_tickets = TicketBLL.Listar(t => true);
+    }
+}
