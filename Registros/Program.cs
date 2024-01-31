@@ -10,6 +10,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddScoped<PrioridadesBLL>();
 builder.Services.AddScoped<ClientesBLL>();
+builder.Services.AddScoped<TicketBLL>();
+builder.Services.AddScoped<SistemasBLL>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
